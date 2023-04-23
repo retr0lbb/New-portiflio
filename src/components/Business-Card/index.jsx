@@ -1,11 +1,10 @@
-
-
-
+import React from "react";
+import style from "./Business-card.module.css"
 const Bcard = () => {
 
     return(
-        <div>
-            <div><img src="../../assets/test.png" alt="" /></div>
+        <div className={style.wrapper}>
+            <div className={style.foto}></div>
             <div></div>
         </div>
     );

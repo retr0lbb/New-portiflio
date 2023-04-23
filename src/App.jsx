@@ -2,6 +2,7 @@ import Card from "./components/Card"
 import Header from "./components/Header"
 import './App.css'
 import Photo from "./components/Photo"
+import Bcard from "./components/Business-Card"
 
 function App() {
 
@@ -12,7 +13,10 @@ function App() {
       <Card/>
       <Photo />
     </main>
-    <section class="otavio"></section>
+    <section class="otavio">
+
+      <Bcard/>
+    </section>
     </>
   )
 }

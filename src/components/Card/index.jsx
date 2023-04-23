@@ -9,7 +9,7 @@ const Card = () =>{
                 <p>Hello.<br/> I'm Henrique, the<br/> <strong>Web Developer</strong></p>
             </div>
             <div>
-                <button>Aqui é o botão</button>
+                <button><a>Aqui é o botão</a></button>
             </div>
         </section>
     )

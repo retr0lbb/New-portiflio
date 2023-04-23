@@ -2,7 +2,9 @@ section{
     width: 40%;
 
 }
-
+button{
+    cursor: pointer;
+}
 .container{
 
     flex-direction: column;

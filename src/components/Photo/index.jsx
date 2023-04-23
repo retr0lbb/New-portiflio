@@ -11,14 +11,20 @@ const Photo = () =>{
         
         image.addEventListener("load", ()=> {
 
+
             var canvas = refContainer.current;
+
             canvas.height = 500;
             canvas.width = 500;
             var ctx = canvas.getContext("2d");
             ctx.imageSmoothingEnabled = true
             ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+
             const pixels = ctx.getImageData(0,0, canvas.width, canvas.height);
+
+
             ctx.clearRect(0,0,canvas.width,canvas.height);
+
 
             let particlesArray = [];
             const numberOfParticles = 7000;
@@ -76,7 +82,7 @@ const Photo = () =>{
                 }
                 draw(){
                     ctx.beginPath();
-                    ctx.fillStyle = 'white';
+                    ctx.fillStyle = 'lime';
                     ctx.arc(this.x, this.y, this.size, 0, Math.PI *2 );
                     ctx.fill();
                 }
