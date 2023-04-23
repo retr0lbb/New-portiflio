@@ -9,3 +9,7 @@ body{
   height: 100vh;
   background-color: #020300; 
 }
+a{
+  text-decoration: none;
+  cursor: pointer;
+}

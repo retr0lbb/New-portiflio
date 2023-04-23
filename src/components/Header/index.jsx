@@ -6,11 +6,11 @@ const Header = () =>{
         <div className={styles.header}>
             <div className={styles.wrapper}>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                    <li>Skills</li>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Projects</a></li>
+                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#'>Skills</a></li>
                 </ul>
             </div>
         </div>

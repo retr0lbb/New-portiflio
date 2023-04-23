@@ -12,6 +12,7 @@ function App() {
       <Card/>
       <Photo />
     </main>
+    <section class="otavio"></section>
     </>
   )
 }

@@ -2,7 +2,13 @@
     --text-color: #F2F2F2;
 }
 
-
+a{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    color: var(--text-color);
+}
 
 .header{
     display: flex;
