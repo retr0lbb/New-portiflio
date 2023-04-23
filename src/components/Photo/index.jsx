@@ -19,8 +19,9 @@ const Photo = () =>{
             ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
             const pixels = ctx.getImageData(0,0, canvas.width, canvas.height);
             ctx.clearRect(0,0,canvas.width,canvas.height);
+
             let particlesArray = [];
-            const numberOfParticles = 5000;
+            const numberOfParticles = 7000;
 
             let mappedImage = [];
 
